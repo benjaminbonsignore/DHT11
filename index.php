@@ -28,7 +28,14 @@
 
 	<br><br>
 
-	<img src="img/thermometer.jpg">
+	<?php
+	$baragraph_height = 161 + $json_data['temperature'] * 4;
+	$baragraph_top = 315 + $json_data['humidite'] * 4;
+	?>
+
+	<div id="thermometer">
+  		<div id="bargraph" style="height: <?php $baragraph_height ?>; top: <?php $baragraph_top ?>;"></div>
+	</div>
 </body>
 
 
