@@ -6,7 +6,7 @@
 
 <body>
 	<h1>Température</h1>
-
+	<img src="img/thermometer.jpg">
 	<?php
 	echo 'Hello world !';
 	?>	
