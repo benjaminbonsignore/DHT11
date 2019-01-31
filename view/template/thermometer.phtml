@@ -1,0 +1,9 @@
+<h1><?= $this->title ?></h1>
+<p>
+	Il fait <?= $data['lastMeasure']->getTemperature()?>°C avec <?= $data['lastMeasure']?>
+	<?= $data['lastMeasure']->getDateTime() ?>
+</p>
+
+<div id="therometer">
+	<div id="bargraph" style="height: <?= $data['bargraph_height']?>"></div>
+</div>

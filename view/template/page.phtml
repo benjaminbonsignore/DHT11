@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang='fr'>
+<head>
+	<meta charset='UTF-8'>
+	<meta http-equiv="refresh" content="10">
+	<title><?php echo $this->title; ?></title>
+	<link rel="stylesheet" href="static/main.css">
+</head>
+<body>
+
+<?php if isset($errors)):
+	foreach($errors as $error): ?>
+	<div>
+		<?= $error ?>
+	</div>
+<?php endforeach; endif; ?>
+
+<?php
+if(file_exists("view/template/".$this->body['']){
+$data = $this->body['data'];
+require_once("view/template/".$this->body['']
+}
+?>
+
+</body>
+</html>
